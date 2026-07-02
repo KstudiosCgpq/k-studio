@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>K Studio</title>
+  <meta name="description" content="K Studio creates mobile games for playful moments with friends, couples, and families.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">K Studio</a>
+    <nav aria-label="Main navigation">
+      <a href="index.html" aria-current="page">Games</a>
+      <a href="support.html">Support</a>
+      <a href="privacy-policy.html">Privacy</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Mobile games studio</p>
+        <h1>K Studio</h1>
+        <p class="lead">We create simple, colorful games built for quick sessions, shared laughs, and playful moments.</p>
+      </div>
+    </section>
+
+    <section class="games-section" aria-labelledby="games-title">
+      <div class="section-heading">
+        <p class="eyebrow">Our games</p>
+        <h2 id="games-title">Available and upcoming titles</h2>
+      </div>
+
+      <div class="games-grid">
+        <article class="game-card">
+          <img src="assets/couple-quizz-party-games.png" alt="Couple Quizz & Party Games app icon">
+          <div>
+            <p class="game-status">Available on TestFlight</p>
+            <h3>Couple Quizz & Party Games</h3>
+            <p>A party questions game with Truth or Dare, Would You Rather, Never Have I Ever, Most Likely, and couple quiz decks.</p>
+          </div>
+        </article>
+
+        <article class="game-card">
+          <img src="assets/dragon-egg-match.png" alt="Dragon Egg Match app icon">
+          <div>
+            <p class="game-status">In development</p>
+            <h3>Dragon Egg Match</h3>
+            <p>A bright matching game about dragon eggs, combos, and satisfying puzzle moments.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>© <span id="year"></span> K Studio</span>
+    <a href="mailto:support.cgpq@gmail.com">support.cgpq@gmail.com</a>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
